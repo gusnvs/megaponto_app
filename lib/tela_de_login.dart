@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'esqueceu_a_senha.dart';
 
 main(){
   runApp(MaterialApp(
@@ -111,7 +112,7 @@ class _HomeState extends State<Home> {
                                 context,
                                 MaterialPageRoute(
                                     builder: (BuildContext context) =>
-                                        EsqueciMinhaSenha()));
+                                        EsqueceuSenha()));
                           },
                         ),
                       ),
