@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'esqueceu_a_senha.dart';
+import 'package:megaponto/criar_conta.dart';
 
 main(){
   runApp(MaterialApp(
@@ -16,7 +17,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView( //Faz com que a tela possa ser rolada
+      body: SingleChildScrollView( //Faz com que a tela possa ser rolada, porém acredito que não está da forma certa
         child: Container(
           width: double.maxFinite,
           height: double.maxFinite,
@@ -168,7 +169,7 @@ class _HomeState extends State<Home> {
                                 context,
                                 MaterialPageRoute(
                                     builder: (BuildContext context) =>
-                                        CriarUmaConta()));
+                                        CriarConta()));
                           },
                         ),
                       )
