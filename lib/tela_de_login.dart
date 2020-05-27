@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'esqueceu_a_senha.dart';
 import 'package:megaponto/criar_conta.dart';
+import 'package:megaponto/home_tela_inicio_tudo.dart';
 
 main(){
   runApp(MaterialApp(
